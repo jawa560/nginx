@@ -1,0 +1,2 @@
+docker build -t my-nginx-full .
+docker run -d -p 80:80 -p 1883:1883 --name my-nginx-full-container my-nginx-full
